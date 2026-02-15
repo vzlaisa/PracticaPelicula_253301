@@ -158,9 +158,11 @@
             android:id="@+id/imageView"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            app:srcCompat="@drawable/corazon_reaccion"
-            tools:layout_editor_absoluteX="84dp"
-            tools:layout_editor_absoluteY="10dp" />
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/corazon_reaccion" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
