@@ -3,5 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="greenMovie">#3F622C</color>
+    <color name="greenLightMovie">#7DCE1C</color>
     <color name="genero">#3254A8</color>
 </resources>

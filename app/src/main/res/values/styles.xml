@@ -9,5 +9,4 @@
     <style name="textoGeneroPelicula">
         <item name="android:textColor">@color/genero</item>
     </style>
-
 </resources>
