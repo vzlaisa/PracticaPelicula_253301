@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">PracticaPelicula_253301</string>
     <string name="movie_name">Paranorman</string>
+    <string name="comprar">Comprar</string>
+    <string name="rentar">Rentar</string>
+    <string name="genero">Género</string>
+    <string name="calificacion">10/10</string>
+    <string name="sipnosis">Cuando el pequeño pueblo en el que vive Norman se ve asediado por los zombis, sus habitantes sólo pueden recurrir al incomprendido Norman, que sabe hablar con los muertos. Pero este joven \'susurrador\' de fantasmas verá sus actividades paranormales propulsadas hasta límites de otro mundo.</string>
 </resources>
