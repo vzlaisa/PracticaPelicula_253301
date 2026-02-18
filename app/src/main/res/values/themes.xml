@@ -3,6 +3,10 @@
     <style name="Base.Theme.PracticaPelicula_253301" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
     </style>
 
     <style name="Theme.PracticaPelicula_253301" parent="Base.Theme.PracticaPelicula_253301" />

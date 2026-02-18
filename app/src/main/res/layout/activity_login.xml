@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Login">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".Login">
+
+        <ImageView
+            android:id="@+id/ivImagenLogin"
+            android:layout_width="194dp"
+            android:layout_height="209dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="12dp"
+            app:srcCompat="@drawable/palomitas" />
+
+        <TextView
+            android:id="@+id/tvIniciarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/titulo"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/iniciarSesion" />
+
+        <LinearLayout
+            android:layout_width="288dp"
+            android:layout_height="82dp"
+            android:gravity="left"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/labelForm"
+                android:text="@string/usuario" />
+
+            <EditText
+                android:id="@+id/etUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="@string/phUsuario"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="288dp"
+            android:layout_height="82dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvContrasenia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/labelForm"
+                android:text="@string/contrasenia" />
+
+            <EditText
+                android:id="@+id/etContrasenia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

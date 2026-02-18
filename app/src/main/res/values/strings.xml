@@ -7,4 +7,8 @@
     <string name="calificacion">7.0/10</string>
     <string name="reviews">117k</string>
     <string name="sipnosis">Cuando el pequeño pueblo en el que vive Norman se ve asediado por los zombis, sus habitantes sólo pueden recurrir al incomprendido Norman, que sabe hablar con los muertos. Pero este joven \'susurrador\' de fantasmas verá sus actividades paranormales propulsadas hasta límites de otro mundo.</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="phUsuario">Ingrese su usuario</string>
 </resources>

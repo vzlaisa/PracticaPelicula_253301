@@ -9,4 +9,14 @@
     <style name="textoGeneroPelicula">
         <item name="android:textColor">@color/genero</item>
     </style>
+
+    <style name="titulo">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="labelForm" parent="titulo">
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>
