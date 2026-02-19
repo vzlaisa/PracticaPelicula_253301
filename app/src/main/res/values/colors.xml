@@ -4,7 +4,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="genero">#3254A8</color>
 
-    <color name="primaryColor">#3F622C</color>
-    <color name="secondaryColor">#7DCE1C</color>
-    <color name="backgroundColor">#FFF1C2</color>
+    <color name="primaryColorLight">#3F622C</color>
+    <color name="secondaryColorLight">#7DCE1C</color>
+    <color name="backgroundColorLight">#FFF1C2</color>
+
+    <color name="primaryColorDark">#BBDEB5</color>
+    <color name="secondaryColorDark">#D3CBAE</color>
+    <color name="backgroundColorDark">#121212</color>
 </resources>

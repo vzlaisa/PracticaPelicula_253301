@@ -4,9 +4,11 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
 
-        <item name="colorPrimary">@color/primaryColor</item>
-        <item name="colorSecondary">@color/secondaryColor</item>
-        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="colorPrimary">@color/primaryColorLight</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondaryColorLight</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:colorBackground">@color/backgroundColorLight</item>
     </style>
 
     <style name="Theme.PracticaPelicula_253301" parent="Base.Theme.PracticaPelicula_253301" />
